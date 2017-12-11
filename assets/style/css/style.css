@@ -5714,6 +5714,15 @@ html {
     z-index: 100;
 }
 
+
+
+
+
+
+
+
+
+
 #button-hd2:hover {
     /* background: #E57679;
     color: white; */
@@ -5722,10 +5731,244 @@ html {
 }
 
 
+.logo{
+    max-width: 100px;
+}
+.navbar-inverse {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+ .navbar-nav{
+   display: inline !important;
+ }
+ .container-wrapper {
+     padding-top: 3px !important;
+ }
+.magtop{
+  margin-top: 5px !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff !important;
+}
+.container-wrapper {
+    padding-top: 10px !important;
+    max-height: auto !important;
+    /*background-color: rgb(233, 30, 99);*/
+    background: url(../images/home/home.png) no-repeat center top;
+    background-size: 100%;
+}
+
+.her_text{
+    /*font-size: 50px;*/
+    line-height: 1.2em;
+    font-style: bold;
+    color: #FFFFFF;
+    max-height: 3.6em;
+    text-align: left;
+    font:51px / 64px "MuseoSansRounded-300", Arial, Helvetica, sans-serif;
+}
+.themecol{
+  background-color: #E91E63;
+  color: #fff;
+}
+
+.bod{
+    border: 5px solid none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.pad{
+  padding-top: 30px;
+}
+.btn-trans{
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  color: white !important;
+}
+.imgmag{
+  margin-top: 70px;
+}
+#section2 ul{
+  text-align: center;
+  width: 1020px;
+  height: 30px;
+  left: 50%;
+  position: absolute;
+  margin-left: -579px;
+  padding: 0;
+  margin-top: 20px;
+}
+#section2 ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: auto;
+    font: 18px / 18px "MuseoSansRounded-300", Arial, Helvetica, sans-serif;
+    color: #374448;
+    letter-spacing: 1px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#section2 .wrapper{
+  color: #75848C;
+  font: 20px / 30px "MuseoSansRounded-300", Arial, Helvetica, sans-serif;
+  /*width: 362px;*/
+  margin-top: 70px;
+}
+.magimg{
+  margin-top: -12px;
+}
+.themefont{
+  color: #75848C;
+  font: 20px / 30px "MuseoSansRounded-300", Arial, Helvetica, sans-serif !important;
+
+}
+.secmag{
+  margin-top: 30px !important;
+}
+#section4 ul {
+
+}
 
 
 
 
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+.footer1 {
+    /*background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;*/
+  padding-top: 150px;
+  padding-right: 0;
+  padding-bottom: 0px;
+  padding-left: 0;/*  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: #003;*/
+}
+
+a {
+    color: #000 ;
+    text-decoration: none;
+}
+
+
+
+
+
+.widget_nav_menu ul {
+
+    padding-left: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+    text-decoration: none;
+    color: #757575 !important;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  position: relative;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  width:95%;
+  list-style-type: none;
+  text-decoration: none;
+  color: #757575 !important;
+}
+
+.widget_nav_menu ul li a{
+  text-decoration: none;
+  color: #757575 !important;
+}
+.sty{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+position: relative;
+text-transform: uppercase;
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+margin-bottom: 10px;
+padding-bottom: 15px;
+width:95%;
+list-style-type: none;
+text-decoration: none;
+color: #757575 !important;
+}
+
+.footpad{
+  padding: 0px 5px 24px 4px;
+  color: #757575 !important;
+}
+
+.footerp p {font-family: 'Gudea', sans-serif; }
+
+
+
+.container-wrapper{padding-top:80px}
+.brand-color{color:#C2185B}
+#section0 .hero
+{
+  margin-top:30px
+}
+#section0 .hero .hero__text
+{
+  width:490px;font-size:64px;line-height:1.2em;font-style:bold;color:#FFFFFF;max-height:3.6em
+}
+#section0 .hero 
+.hero__sub{width:600px;font-style:normal;
+  font-weight:300;
+  font-size:18px;
+  height:3em;
+  color:#fff !important;
+  line-height:1.5em;
+  font: 23px / 30px "MuseoSansRounded-300", Arial, Helvetica, sans-serif;
+}
+#section0 .hero button{margin-top:60px;min-width:300px;border-radius:23px !important}
+.signup-form{margin-top:40px}
+.signup-form .form-control{margin:5px auto;border-radius:1px;height:40px}
+.signup-form .or{text-transform:capitalize;display:block;text-transform:uppercase;bottom:-13px;padding:5px 10px;font-size:12px;font-weight:lighter}
+.signup-form button{text-transform:uppercase;border-radius:23px !important}
+.signup-agreement{margin-top:20px;font-size:14px;color:#ffffff}
+.signup-agreement p{font-style:normal;font-weight:normal}
+.signup-agreement span{font-weight:bold}#section1 .promo{color:#212121;margin-top:60px}#section1
+.promo .promo__text{width:500px;font-size:64px;line-height:1.2em;font-style:bold;color:#212121;max-height:3.6em}
+#section1 .promo .promo__sub{width:600px;font-style:normal;font-weight:300;font-size:14px;height:3em;color:#212121;line-height:1.5em}
+#section2 .container{margin-top:40px}
+
+
+.sub{
+  color: #fff;
+    font: 19px / 30px "MuseoSansRounded-300", Arial, Helvetica, sans-serif;
+    width: 550px;
+    text-align: left;
+
+}
+
+
+.btn-oval{
+  margin-top:20px;
+  min-width:300px;
+  border-radius:23px !important
+}
 
 
 
